@@ -1,0 +1,99 @@
+
+.w3d23 {
+    padding-top: 0;
+    display: flex;
+    background-color: #efefef;
+    position:absolute;
+    padding-top: -10rem;
+}
+.w3d23 a{
+    text-decoration: none;
+}
+
+.w3d140 {
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    padding: 160px 24px 112px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.w3d40 {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    padding: 160px 24px 112px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.w3d32 {
+    top: -10%;
+    left: -10%;
+    width: 110%;
+    height: 110%;
+    z-index: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+.w3d33{
+    z-index: 1;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    transform: skewY(-5deg);
+    font-weight: 1000;
+    font-style: oblique;
+    text-underline-offset: unset;
+}
+
+ 
+.w4d1{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top:40px;
+    right: 130px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.w4d12{
+color: white;
+padding-right: 0.5rem;
+}
+.w4d13{
+    width: 5rem;
+    color: white;
+    font-size: 20px;
+    border: solid;
+    border-radius: 2rem;
+    border-color: currentColor;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .w4d1{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        z-index: 3;
+        top:40px;
+        right: 120px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}

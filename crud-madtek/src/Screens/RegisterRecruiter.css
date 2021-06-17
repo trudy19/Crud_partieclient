@@ -1,0 +1,99 @@
+
+.register-recruiter{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.register-recruiter a{
+    text-decoration: none;
+}
+
+
+.form-register-img{
+    width: 50vw;
+    display: flex;
+    position: relative;
+    overflow: auto;
+    background-size: cover;
+    margin:1rem;
+    border-radius: 2rem;
+    height: 90vh;
+
+
+}
+
+
+.form-register{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: relative;
+    width: 50vw;
+
+}
+.form-register a{
+    display:flex;
+    right:40px;
+    
+}
+
+.form-container-register{
+
+    height: 50vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border: thin;
+    margin:2rem;
+    position:absolute;
+    top: 169px;
+
+}
+
+
+.form-container-register li{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.w3d32 {
+
+    z-index: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+.w4d1{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+   
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.w4d12{
+    font-weight: 700;
+    font-size: 20px;
+color: rgb(10, 9, 9);
+padding-right: 0.5rem;
+}
+.w4d13{
+    width: 9rem;
+    color: rgb(17, 17, 17);
+    font-size: 30px;
+    border: solid;
+    border-radius: 2rem;
+    border-color: currentColor;
+    display: flex;
+    justify-content: center;
+
+}

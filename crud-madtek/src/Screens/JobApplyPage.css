@@ -1,0 +1,14 @@
+.formupload{
+
+
+    display: flex;
+}
+
+.formuploads{
+flex-wrap: nowrap;}
+
+
+div.mb-3.form-group{
+    margin-top: 2rem;
+    display: inline-grid;
+}
